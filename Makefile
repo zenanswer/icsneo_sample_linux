@@ -17,4 +17,4 @@ icsneo_sample.o: icsneo_sample.cpp
 	$(CXX) $(CFLAGS) -I../icsneoapi/ics/include/ icsneo_sample.cpp
 
 clean:
-	rm -rf *.o icsneo_sample
+	rm -rf *.o icsneo_sample icsneo_sample_static
